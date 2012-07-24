@@ -1,0 +1,23 @@
+1. Install MacRuby via RVM
+2. `gem install bundler`
+3. `bundle install`
+4. `bundle exec rspec`
+
+You should see the following error message:
+
+    F
+
+    Failures:
+
+      1) Stuff is stuff
+        Failure/Error: "stuff".should == "stuff"
+        NoMethodError:
+          undefined method `should' for "stuff":String
+        # ./spec/my_spec.rb:3:in `block'
+
+    Finished in 0.37929 seconds
+    1 example, 1 failure
+
+    Failed examples:
+
+    rspec ./spec/my_spec.rb:0 # Stuff is stuff
