@@ -1,3 +1,6 @@
+This bug has been fixed. See https://github.com/rspec/rspec-expectations/pull/160
+
+
 1. Install MacRuby via RVM
 2. `gem install bundler`
 3. `bundle install`
